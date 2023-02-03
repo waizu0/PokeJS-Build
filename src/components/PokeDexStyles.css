@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/barlow');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(45deg, rgb(211, 214, 9), rgb(214, 142, 9));
+    min-height: 100vh;
+}
+
+.main-dex{
+    position: relative;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.pokedex-img{
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemon-image{
+    position: absolute;
+    bottom: 55%;
+    left: 70%;
+    transform: translate(-130%, 20%);
+    height: 20%;
+}
+
+.pokemon-data{
+    position: absolute;
+    font-size: clamp(8px, 5vw, 25px);
+    font-weight: 700;
+    color: rgb(124, 120, 120);
+    top: 54.5%;
+    right: 26%;
+}
+
+.pokemon-name{
+    text-transform: uppercase;
+    color: rgb(80, 80, 80);
+}
+
+.form{
+    position: absolute;
+    width: 65%;
+    top: 70%;
+    left: 13.5%;
+}
+
+.input-search{
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    box-shadow: -3px 4px 0 rgba(59, 7, 7, 0.329), -5px 7px rgba(0, 0, 0, 0.63);
+    font-size: clamp(9px, 6vw, 1.2rem);
+    font-weight: bold;
+    border: 2px solid rgb(80,80,80);
+    border-radius: 5px;
+    color: #000407;
+}
+
+.logo{
+    color: white;
+    font-size: clamp(20px, 19vw, 70px);
+    padding: 40px;
+    font-weight: bold;
+  }
+  
+
+img{
+    pointer-events: none;
+}
